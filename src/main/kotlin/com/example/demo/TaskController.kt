@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 
 @Controller
 @RequestMapping("tasks")
-class TaskController{
+public class TaskController{
 
     @GetMapping("")
     fun index(model: Model): String{
